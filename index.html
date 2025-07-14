@@ -1,1 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blurred Transparent Header</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 2rem;
+      background: url('https://picsum.photos/1200/800') no-repeat center center fixed;
+      background-size: cover;
+      font-family: sans-serif;
+    }
+
+    header {
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      background-color: rgba(255, 255, 255, 0.2);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      border-radius: 12px;
+      padding: 1rem 2rem;
+      width: calc(100% - 4rem);
+      max-width: 800px;
+      margin: 2rem auto 0 auto;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      margin: 0;
+      color: #fff;
+      text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Blurred Transparent Header</h1>
+  </header>
+</body>
+</html>
 
